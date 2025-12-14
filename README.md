@@ -109,11 +109,31 @@ client.getPrices(['BTC', 'ETH', 'SOL']);
 
 // Listen for updates
 client.on('prices', (prices: PriceData[]) => {
-  // All prices array
+  // All prices array (482+ assets)
 });
 
 client.on('price', (price: PriceData) => {
   // Single price update
+});
+```
+
+### Filter Perps vs Spots
+
+```typescript
+// Each price has a 'type' field: 'perp' or 'spot'
+client.on('prices', (prices) => {
+  // Get only perpetual contracts
+  const perps = prices.filter(p => p.type === 'perp');
+  console.log(`${perps.length} perps`);  // 223 perps
+  
+  // Get only spot pairs
+  const spots = prices.filter(p => p.type === 'spot');
+  console.log(`${spots.length} spots`); // 259 spots
+  
+  // Spot symbols look like: HYPE/USDC, PURR/USDC, etc.
+  spots.forEach(s => {
+    console.log(`${s.displayName}: $${s.price}`);
+  });
 });
 ```
 
