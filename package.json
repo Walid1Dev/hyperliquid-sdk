@@ -1,0 +1,60 @@
+{
+  "name": "@Walid1Dev/hyperliquid-sdk",
+  "version": "1.0.0",
+  "description": "Real-time Hyperliquid market data SDK - prices, order books, trades, and user data via WebSocket",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --clean",
+    "dev": "tsup src/index.ts --format cjs,esm --dts --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "hyperliquid",
+    "trading",
+    "websocket",
+    "real-time",
+    "crypto",
+    "market-data",
+    "orderbook",
+    "prices",
+    "sdk",
+    "nylium"
+  ],
+  "author": "Walid1Dev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Walid1Dev/hyperliquid-sdk"
+  },
+  "homepage": "https://nylium.xyz",
+  "bugs": {
+    "url": "https://github.com/Walid1Dev/hyperliquid-sdk/issues"
+  },
+  "dependencies": {
+    "socket.io-client": "^4.7.2"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3",
+    "vitest": "^1.1.0"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
