@@ -1,6 +1,6 @@
 {
-  "name": "@Walid1Dev/hyperliquid-sdk",
-  "version": "1.0.0",
+  "name": "@nylium/hyperliquid-sdk",
+  "version": "1.0.1",
   "description": "Real-time Hyperliquid market data SDK - prices, order books, trades, and user data via WebSocket",
   "main": "dist/index.js",
   "module": "dist/index.mjs",

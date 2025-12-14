@@ -1,5 +1,5 @@
 /**
- * Node.js Example for @Walid1Dev/hyperliquid-sdk
+ * Node.js Example for @nylium/hyperliquid-sdk
  * 
  * Run this with: npx ts-node examples/node-example.ts
  */

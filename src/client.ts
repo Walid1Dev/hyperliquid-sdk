@@ -50,7 +50,7 @@ const DEFAULT_NETWORK: Network = "mainnet";
  *
  * @example
  * ```typescript
- * import { HyperliquidClient } from '@Walid1Dev/hyperliquid-sdk';
+ * import { HyperliquidClient } from '@nylium/hyperliquid-sdk';
  *
  * // Mainnet (default)
  * const client = new HyperliquidClient();

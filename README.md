@@ -1,8 +1,8 @@
-# @Walid1Dev/hyperliquid-sdk
+# @nylium/hyperliquid-sdk
 
 Real-time Hyperliquid market data SDK for Node.js and browsers.
 
-[![npm version](https://img.shields.io/npm/v/@Walid1Dev/hyperliquid-sdk.svg)](https://www.npmjs.com/package/@Walid1Dev/hyperliquid-sdk)
+[![npm version](https://img.shields.io/npm/v/@nylium/hyperliquid-sdk.svg)](https://www.npmjs.com/package/@nylium/hyperliquid-sdk)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Features
@@ -21,19 +21,19 @@ Real-time Hyperliquid market data SDK for Node.js and browsers.
 
 ```bash
 # npm
-npm install @Walid1Dev/hyperliquid-sdk
+npm install @nylium/hyperliquid-sdk
 
 # pnpm
-pnpm add @Walid1Dev/hyperliquid-sdk
+pnpm add @nylium/hyperliquid-sdk
 
 # yarn
-yarn add @Walid1Dev/hyperliquid-sdk
+yarn add @nylium/hyperliquid-sdk
 ```
 
 ## Quick Start
 
 ```typescript
-import { HyperliquidClient } from '@Walid1Dev/hyperliquid-sdk';
+import { HyperliquidClient } from '@nylium/hyperliquid-sdk';
 
 const client = new HyperliquidClient();
 
