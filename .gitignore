@@ -22,10 +22,13 @@ pnpm-debug.log*
 # Test coverage
 coverage/
 
-# Lock files (keep package-lock.json for npm publishing)
+# Lock files 
 pnpm-lock.yaml
 yarn.lock
 
 # Environment
 .env
 .env.local
+
+# Scripts 
+scripts/

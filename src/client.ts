@@ -256,6 +256,72 @@ export class HyperliquidClient {
   }
 
   // ═══════════════════════════════════════════════════════════════════════
+  // FULL ASSET SUBSCRIPTION (CONVENIENCE METHOD)
+  // ═══════════════════════════════════════════════════════════════════════
+
+  /**
+   * Subscribe to ALL data streams for a single asset.
+   * This is a convenience method that subscribes to:
+   * - Price updates
+   * - Order book (L2)
+   * - Trade stream
+   * - Candle data (1h interval by default)
+   * 
+   * Perfect for building a terminal trading view with one call.
+   * 
+   * @param asset - Asset symbol (e.g., "BTC", "ETH", or "@123" for spot by index)
+   * @param candleInterval - Candle interval (default: "1h")
+   * @example
+   * ```typescript
+   * // Subscribe to everything for BTC
+   * client.subscribeAsset('BTC');
+   * 
+   * // Listen to all data
+   * client.on('prices', (prices) => { ... });
+   * client.on('orderbook', (ob) => { ... });
+   * client.on('trades', (trades) => { ... });
+   * client.on('candle', (candle) => { ... });
+   * ```
+   */
+  subscribeAsset(asset: string, candleInterval: string = "1h"): void {
+    this.ensureConnected();
+    
+    this.log(`Subscribing to all data for ${asset}...`);
+    
+    // Subscribe to price for this asset
+    this.subscribePrices(asset);
+    
+    // Subscribe to order book
+    this.subscribeOrderBook(asset);
+    
+    // Subscribe to trades
+    this.subscribeTrades(asset);
+    
+    // Subscribe to candles
+    this.subscribeCandles(asset, candleInterval);
+    
+    this.log(`Subscribed to all data for ${asset}`);
+    this.emit("asset:subscribed", { asset, candleInterval });
+  }
+
+  /**
+   * Unsubscribe from all data streams for a single asset
+   * @param asset - Asset symbol to unsubscribe from
+   */
+  unsubscribeAsset(asset: string): void {
+    this.ensureConnected();
+    
+    // Unsubscribe from all rooms for this asset
+    this.socket!.emit("unsubscribe", { room: `price:${asset}` });
+    this.socket!.emit("unsubscribe", { room: `orderbook:${asset}` });
+    this.socket!.emit("unsubscribe", { room: `trades:${asset}` });
+    this.socket!.emit("unsubscribe", { room: `candle:${asset}:1h` });
+    
+    this.log(`Unsubscribed from all data for ${asset}`);
+    this.emit("asset:unsubscribed", { asset });
+  }
+
+  // ═══════════════════════════════════════════════════════════════════════
   // USER DATA (AUTHENTICATED)
   // ═══════════════════════════════════════════════════════════════════════
 

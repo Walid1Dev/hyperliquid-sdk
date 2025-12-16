@@ -1,0 +1,3501 @@
+{
+  "network": "mainnet",
+  "generatedAt": "2025-12-16T17:13:25.189Z",
+  "totalAssets": 467,
+  "perps": 223,
+  "spots": 244,
+  "assets": [
+    {
+      "symbol": "BTC",
+      "displayName": "BTC",
+      "type": "perp",
+      "index": 0,
+      "szDecimals": 5,
+      "maxLeverage": 40
+    },
+    {
+      "symbol": "ETH",
+      "displayName": "ETH",
+      "type": "perp",
+      "index": 1,
+      "szDecimals": 4,
+      "maxLeverage": 25
+    },
+    {
+      "symbol": "ATOM",
+      "displayName": "ATOM",
+      "type": "perp",
+      "index": 2,
+      "szDecimals": 2,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "MATIC",
+      "displayName": "MATIC",
+      "type": "perp",
+      "index": 3,
+      "szDecimals": 1,
+      "maxLeverage": 20
+    },
+    {
+      "symbol": "DYDX",
+      "displayName": "DYDX",
+      "type": "perp",
+      "index": 4,
+      "szDecimals": 1,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "SOL",
+      "displayName": "SOL",
+      "type": "perp",
+      "index": 5,
+      "szDecimals": 2,
+      "maxLeverage": 20
+    },
+    {
+      "symbol": "AVAX",
+      "displayName": "AVAX",
+      "type": "perp",
+      "index": 6,
+      "szDecimals": 2,
+      "maxLeverage": 10
+    },
+    {
+      "symbol": "BNB",
+      "displayName": "BNB",
+      "type": "perp",
+      "index": 7,
+      "szDecimals": 3,
+      "maxLeverage": 10
+    },
+    {
+      "symbol": "APE",
+      "displayName": "APE",
+      "type": "perp",
+      "index": 8,
+      "szDecimals": 1,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "OP",
+      "displayName": "OP",
+      "type": "perp",
+      "index": 9,
+      "szDecimals": 1,
+      "maxLeverage": 10
+    },
+    {
+      "symbol": "LTC",
+      "displayName": "LTC",
+      "type": "perp",
+      "index": 10,
+      "szDecimals": 2,
+      "maxLeverage": 10
+    },
+    {
+      "symbol": "ARB",
+      "displayName": "ARB",
+      "type": "perp",
+      "index": 11,
+      "szDecimals": 1,
+      "maxLeverage": 10
+    },
+    {
+      "symbol": "DOGE",
+      "displayName": "DOGE",
+      "type": "perp",
+      "index": 12,
+      "szDecimals": 4,
+      "maxLeverage": 10
+    },
+    {
+      "symbol": "INJ",
+      "displayName": "INJ",
+      "type": "perp",
+      "index": 13,
+      "szDecimals": 1,
+      "maxLeverage": 10
+    },
+    {
+      "symbol": "SUI",
+      "displayName": "SUI",
+      "type": "perp",
+      "index": 14,
+      "szDecimals": 1,
+      "maxLeverage": 10
+    },
+    {
+      "symbol": "kPEPE",
+      "displayName": "kPEPE",
+      "type": "perp",
+      "index": 15,
+      "szDecimals": 4,
+      "maxLeverage": 10
+    },
+    {
+      "symbol": "CRV",
+      "displayName": "CRV",
+      "type": "perp",
+      "index": 16,
+      "szDecimals": 1,
+      "maxLeverage": 10
+    },
+    {
+      "symbol": "LDO",
+      "displayName": "LDO",
+      "type": "perp",
+      "index": 17,
+      "szDecimals": 1,
+      "maxLeverage": 10
+    },
+    {
+      "symbol": "LINK",
+      "displayName": "LINK",
+      "type": "perp",
+      "index": 18,
+      "szDecimals": 1,
+      "maxLeverage": 10
+    },
+    {
+      "symbol": "STX",
+      "displayName": "STX",
+      "type": "perp",
+      "index": 19,
+      "szDecimals": 1,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "RNDR",
+      "displayName": "RNDR",
+      "type": "perp",
+      "index": 20,
+      "szDecimals": 1,
+      "maxLeverage": 20
+    },
+    {
+      "symbol": "CFX",
+      "displayName": "CFX",
+      "type": "perp",
+      "index": 21,
+      "szDecimals": 4,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "FTM",
+      "displayName": "FTM",
+      "type": "perp",
+      "index": 22,
+      "szDecimals": 4,
+      "maxLeverage": 10
+    },
+    {
+      "symbol": "GMX",
+      "displayName": "GMX",
+      "type": "perp",
+      "index": 23,
+      "szDecimals": 2,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "SNX",
+      "displayName": "SNX",
+      "type": "perp",
+      "index": 24,
+      "szDecimals": 1,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "XRP",
+      "displayName": "XRP",
+      "type": "perp",
+      "index": 25,
+      "szDecimals": 4,
+      "maxLeverage": 20
+    },
+    {
+      "symbol": "BCH",
+      "displayName": "BCH",
+      "type": "perp",
+      "index": 26,
+      "szDecimals": 3,
+      "maxLeverage": 10
+    },
+    {
+      "symbol": "APT",
+      "displayName": "APT",
+      "type": "perp",
+      "index": 27,
+      "szDecimals": 2,
+      "maxLeverage": 10
+    },
+    {
+      "symbol": "AAVE",
+      "displayName": "AAVE",
+      "type": "perp",
+      "index": 28,
+      "szDecimals": 2,
+      "maxLeverage": 10
+    },
+    {
+      "symbol": "COMP",
+      "displayName": "COMP",
+      "type": "perp",
+      "index": 29,
+      "szDecimals": 2,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "MKR",
+      "displayName": "MKR",
+      "type": "perp",
+      "index": 30,
+      "szDecimals": 4,
+      "maxLeverage": 10
+    },
+    {
+      "symbol": "WLD",
+      "displayName": "WLD",
+      "type": "perp",
+      "index": 31,
+      "szDecimals": 1,
+      "maxLeverage": 10
+    },
+    {
+      "symbol": "FXS",
+      "displayName": "FXS",
+      "type": "perp",
+      "index": 32,
+      "szDecimals": 1,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "HPOS",
+      "displayName": "HPOS",
+      "type": "perp",
+      "index": 33,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "RLB",
+      "displayName": "RLB",
+      "type": "perp",
+      "index": 34,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "UNIBOT",
+      "displayName": "UNIBOT",
+      "type": "perp",
+      "index": 35,
+      "szDecimals": 3,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "YGG",
+      "displayName": "YGG",
+      "type": "perp",
+      "index": 36,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "TRX",
+      "displayName": "TRX",
+      "type": "perp",
+      "index": 37,
+      "szDecimals": 4,
+      "maxLeverage": 10
+    },
+    {
+      "symbol": "kSHIB",
+      "displayName": "kSHIB",
+      "type": "perp",
+      "index": 38,
+      "szDecimals": 4,
+      "maxLeverage": 10
+    },
+    {
+      "symbol": "UNI",
+      "displayName": "UNI",
+      "type": "perp",
+      "index": 39,
+      "szDecimals": 1,
+      "maxLeverage": 10
+    },
+    {
+      "symbol": "SEI",
+      "displayName": "SEI",
+      "type": "perp",
+      "index": 40,
+      "szDecimals": 4,
+      "maxLeverage": 10
+    },
+    {
+      "symbol": "RUNE",
+      "displayName": "RUNE",
+      "type": "perp",
+      "index": 41,
+      "szDecimals": 1,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "OX",
+      "displayName": "OX",
+      "type": "perp",
+      "index": 42,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "FRIEND",
+      "displayName": "FRIEND",
+      "type": "perp",
+      "index": 43,
+      "szDecimals": 1,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "SHIA",
+      "displayName": "SHIA",
+      "type": "perp",
+      "index": 44,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "CYBER",
+      "displayName": "CYBER",
+      "type": "perp",
+      "index": 45,
+      "szDecimals": 1,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "ZRO",
+      "displayName": "ZRO",
+      "type": "perp",
+      "index": 46,
+      "szDecimals": 1,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "BLZ",
+      "displayName": "BLZ",
+      "type": "perp",
+      "index": 47,
+      "szDecimals": 4,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "DOT",
+      "displayName": "DOT",
+      "type": "perp",
+      "index": 48,
+      "szDecimals": 1,
+      "maxLeverage": 10
+    },
+    {
+      "symbol": "BANANA",
+      "displayName": "BANANA",
+      "type": "perp",
+      "index": 49,
+      "szDecimals": 1,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "TRB",
+      "displayName": "TRB",
+      "type": "perp",
+      "index": 50,
+      "szDecimals": 2,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "FTT",
+      "displayName": "FTT",
+      "type": "perp",
+      "index": 51,
+      "szDecimals": 1,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "LOOM",
+      "displayName": "LOOM",
+      "type": "perp",
+      "index": 52,
+      "szDecimals": 4,
+      "maxLeverage": 10
+    },
+    {
+      "symbol": "OGN",
+      "displayName": "OGN",
+      "type": "perp",
+      "index": 53,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "RDNT",
+      "displayName": "RDNT",
+      "type": "perp",
+      "index": 54,
+      "szDecimals": 4,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "ARK",
+      "displayName": "ARK",
+      "type": "perp",
+      "index": 55,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "BNT",
+      "displayName": "BNT",
+      "type": "perp",
+      "index": 56,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "CANTO",
+      "displayName": "CANTO",
+      "type": "perp",
+      "index": 57,
+      "szDecimals": 4,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "REQ",
+      "displayName": "REQ",
+      "type": "perp",
+      "index": 58,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "BIGTIME",
+      "displayName": "BIGTIME",
+      "type": "perp",
+      "index": 59,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "KAS",
+      "displayName": "KAS",
+      "type": "perp",
+      "index": 60,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "ORBS",
+      "displayName": "ORBS",
+      "type": "perp",
+      "index": 61,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "BLUR",
+      "displayName": "BLUR",
+      "type": "perp",
+      "index": 62,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "TIA",
+      "displayName": "TIA",
+      "type": "perp",
+      "index": 63,
+      "szDecimals": 1,
+      "maxLeverage": 10
+    },
+    {
+      "symbol": "BSV",
+      "displayName": "BSV",
+      "type": "perp",
+      "index": 64,
+      "szDecimals": 2,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "ADA",
+      "displayName": "ADA",
+      "type": "perp",
+      "index": 65,
+      "szDecimals": 4,
+      "maxLeverage": 10
+    },
+    {
+      "symbol": "TON",
+      "displayName": "TON",
+      "type": "perp",
+      "index": 66,
+      "szDecimals": 1,
+      "maxLeverage": 10
+    },
+    {
+      "symbol": "MINA",
+      "displayName": "MINA",
+      "type": "perp",
+      "index": 67,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "POLYX",
+      "displayName": "POLYX",
+      "type": "perp",
+      "index": 68,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "GAS",
+      "displayName": "GAS",
+      "type": "perp",
+      "index": 69,
+      "szDecimals": 1,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "PENDLE",
+      "displayName": "PENDLE",
+      "type": "perp",
+      "index": 70,
+      "szDecimals": 4,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "STG",
+      "displayName": "STG",
+      "type": "perp",
+      "index": 71,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "FET",
+      "displayName": "FET",
+      "type": "perp",
+      "index": 72,
+      "szDecimals": 4,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "STRAX",
+      "displayName": "STRAX",
+      "type": "perp",
+      "index": 73,
+      "szDecimals": 4,
+      "maxLeverage": 10
+    },
+    {
+      "symbol": "NEAR",
+      "displayName": "NEAR",
+      "type": "perp",
+      "index": 74,
+      "szDecimals": 1,
+      "maxLeverage": 10
+    },
+    {
+      "symbol": "MEME",
+      "displayName": "MEME",
+      "type": "perp",
+      "index": 75,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "ORDI",
+      "displayName": "ORDI",
+      "type": "perp",
+      "index": 76,
+      "szDecimals": 2,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "BADGER",
+      "displayName": "BADGER",
+      "type": "perp",
+      "index": 77,
+      "szDecimals": 1,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "NEO",
+      "displayName": "NEO",
+      "type": "perp",
+      "index": 78,
+      "szDecimals": 2,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "ZEN",
+      "displayName": "ZEN",
+      "type": "perp",
+      "index": 79,
+      "szDecimals": 2,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "FIL",
+      "displayName": "FIL",
+      "type": "perp",
+      "index": 80,
+      "szDecimals": 1,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "PYTH",
+      "displayName": "PYTH",
+      "type": "perp",
+      "index": 81,
+      "szDecimals": 4,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "SUSHI",
+      "displayName": "SUSHI",
+      "type": "perp",
+      "index": 82,
+      "szDecimals": 1,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "ILV",
+      "displayName": "ILV",
+      "type": "perp",
+      "index": 83,
+      "szDecimals": 2,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "IMX",
+      "displayName": "IMX",
+      "type": "perp",
+      "index": 84,
+      "szDecimals": 1,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "kBONK",
+      "displayName": "kBONK",
+      "type": "perp",
+      "index": 85,
+      "szDecimals": 4,
+      "maxLeverage": 10
+    },
+    {
+      "symbol": "GMT",
+      "displayName": "GMT",
+      "type": "perp",
+      "index": 86,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "SUPER",
+      "displayName": "SUPER",
+      "type": "perp",
+      "index": 87,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "USTC",
+      "displayName": "USTC",
+      "type": "perp",
+      "index": 88,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "NFTI",
+      "displayName": "NFTI",
+      "type": "perp",
+      "index": 89,
+      "szDecimals": 1,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "JUP",
+      "displayName": "JUP",
+      "type": "perp",
+      "index": 90,
+      "szDecimals": 4,
+      "maxLeverage": 10
+    },
+    {
+      "symbol": "kLUNC",
+      "displayName": "kLUNC",
+      "type": "perp",
+      "index": 91,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "RSR",
+      "displayName": "RSR",
+      "type": "perp",
+      "index": 92,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "GALA",
+      "displayName": "GALA",
+      "type": "perp",
+      "index": 93,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "JTO",
+      "displayName": "JTO",
+      "type": "perp",
+      "index": 94,
+      "szDecimals": 4,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "NTRN",
+      "displayName": "NTRN",
+      "type": "perp",
+      "index": 95,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "ACE",
+      "displayName": "ACE",
+      "type": "perp",
+      "index": 96,
+      "szDecimals": 2,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "MAV",
+      "displayName": "MAV",
+      "type": "perp",
+      "index": 97,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "WIF",
+      "displayName": "WIF",
+      "type": "perp",
+      "index": 98,
+      "szDecimals": 4,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "CAKE",
+      "displayName": "CAKE",
+      "type": "perp",
+      "index": 99,
+      "szDecimals": 1,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "PEOPLE",
+      "displayName": "PEOPLE",
+      "type": "perp",
+      "index": 100,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "ENS",
+      "displayName": "ENS",
+      "type": "perp",
+      "index": 101,
+      "szDecimals": 2,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "ETC",
+      "displayName": "ETC",
+      "type": "perp",
+      "index": 102,
+      "szDecimals": 2,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "XAI",
+      "displayName": "XAI",
+      "type": "perp",
+      "index": 103,
+      "szDecimals": 1,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "MANTA",
+      "displayName": "MANTA",
+      "type": "perp",
+      "index": 104,
+      "szDecimals": 1,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "UMA",
+      "displayName": "UMA",
+      "type": "perp",
+      "index": 105,
+      "szDecimals": 1,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "ONDO",
+      "displayName": "ONDO",
+      "type": "perp",
+      "index": 106,
+      "szDecimals": 4,
+      "maxLeverage": 10
+    },
+    {
+      "symbol": "ALT",
+      "displayName": "ALT",
+      "type": "perp",
+      "index": 107,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "ZETA",
+      "displayName": "ZETA",
+      "type": "perp",
+      "index": 108,
+      "szDecimals": 1,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "DYM",
+      "displayName": "DYM",
+      "type": "perp",
+      "index": 109,
+      "szDecimals": 1,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "MAVIA",
+      "displayName": "MAVIA",
+      "type": "perp",
+      "index": 110,
+      "szDecimals": 1,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "W",
+      "displayName": "W",
+      "type": "perp",
+      "index": 111,
+      "szDecimals": 1,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "PANDORA",
+      "displayName": "PANDORA",
+      "type": "perp",
+      "index": 112,
+      "szDecimals": 5,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "STRK",
+      "displayName": "STRK",
+      "type": "perp",
+      "index": 113,
+      "szDecimals": 1,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "PIXEL",
+      "displayName": "PIXEL",
+      "type": "perp",
+      "index": 114,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "AI",
+      "displayName": "AI",
+      "type": "perp",
+      "index": 115,
+      "szDecimals": 1,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "TAO",
+      "displayName": "TAO",
+      "type": "perp",
+      "index": 116,
+      "szDecimals": 3,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "AR",
+      "displayName": "AR",
+      "type": "perp",
+      "index": 117,
+      "szDecimals": 2,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "MYRO",
+      "displayName": "MYRO",
+      "type": "perp",
+      "index": 118,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "kFLOKI",
+      "displayName": "kFLOKI",
+      "type": "perp",
+      "index": 119,
+      "szDecimals": 4,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "BOME",
+      "displayName": "BOME",
+      "type": "perp",
+      "index": 120,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "ETHFI",
+      "displayName": "ETHFI",
+      "type": "perp",
+      "index": 121,
+      "szDecimals": 1,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "ENA",
+      "displayName": "ENA",
+      "type": "perp",
+      "index": 122,
+      "szDecimals": 4,
+      "maxLeverage": 10
+    },
+    {
+      "symbol": "MNT",
+      "displayName": "MNT",
+      "type": "perp",
+      "index": 123,
+      "szDecimals": 1,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "TNSR",
+      "displayName": "TNSR",
+      "type": "perp",
+      "index": 124,
+      "szDecimals": 1,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "SAGA",
+      "displayName": "SAGA",
+      "type": "perp",
+      "index": 125,
+      "szDecimals": 1,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "MERL",
+      "displayName": "MERL",
+      "type": "perp",
+      "index": 126,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "HBAR",
+      "displayName": "HBAR",
+      "type": "perp",
+      "index": 127,
+      "szDecimals": 4,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "POPCAT",
+      "displayName": "POPCAT",
+      "type": "perp",
+      "index": 128,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "OMNI",
+      "displayName": "OMNI",
+      "type": "perp",
+      "index": 129,
+      "szDecimals": 2,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "EIGEN",
+      "displayName": "EIGEN",
+      "type": "perp",
+      "index": 130,
+      "szDecimals": 2,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "REZ",
+      "displayName": "REZ",
+      "type": "perp",
+      "index": 131,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "NOT",
+      "displayName": "NOT",
+      "type": "perp",
+      "index": 132,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "TURBO",
+      "displayName": "TURBO",
+      "type": "perp",
+      "index": 133,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "BRETT",
+      "displayName": "BRETT",
+      "type": "perp",
+      "index": 134,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "IO",
+      "displayName": "IO",
+      "type": "perp",
+      "index": 135,
+      "szDecimals": 1,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "ZK",
+      "displayName": "ZK",
+      "type": "perp",
+      "index": 136,
+      "szDecimals": 4,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "BLAST",
+      "displayName": "BLAST",
+      "type": "perp",
+      "index": 137,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "LISTA",
+      "displayName": "LISTA",
+      "type": "perp",
+      "index": 138,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "MEW",
+      "displayName": "MEW",
+      "type": "perp",
+      "index": 139,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "RENDER",
+      "displayName": "RENDER",
+      "type": "perp",
+      "index": 140,
+      "szDecimals": 1,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "kDOGS",
+      "displayName": "kDOGS",
+      "type": "perp",
+      "index": 141,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "POL",
+      "displayName": "POL",
+      "type": "perp",
+      "index": 142,
+      "szDecimals": 4,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "CATI",
+      "displayName": "CATI",
+      "type": "perp",
+      "index": 143,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "CELO",
+      "displayName": "CELO",
+      "type": "perp",
+      "index": 144,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "HMSTR",
+      "displayName": "HMSTR",
+      "type": "perp",
+      "index": 145,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "SCR",
+      "displayName": "SCR",
+      "type": "perp",
+      "index": 146,
+      "szDecimals": 1,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "NEIROETH",
+      "displayName": "NEIROETH",
+      "type": "perp",
+      "index": 147,
+      "szDecimals": 4,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "kNEIRO",
+      "displayName": "kNEIRO",
+      "type": "perp",
+      "index": 148,
+      "szDecimals": 1,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "GOAT",
+      "displayName": "GOAT",
+      "type": "perp",
+      "index": 149,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "MOODENG",
+      "displayName": "MOODENG",
+      "type": "perp",
+      "index": 150,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "GRASS",
+      "displayName": "GRASS",
+      "type": "perp",
+      "index": 151,
+      "szDecimals": 1,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "PURR",
+      "displayName": "PURR",
+      "type": "perp",
+      "index": 152,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "PNUT",
+      "displayName": "PNUT",
+      "type": "perp",
+      "index": 153,
+      "szDecimals": 1,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "XLM",
+      "displayName": "XLM",
+      "type": "perp",
+      "index": 154,
+      "szDecimals": 4,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "CHILLGUY",
+      "displayName": "CHILLGUY",
+      "type": "perp",
+      "index": 155,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "SAND",
+      "displayName": "SAND",
+      "type": "perp",
+      "index": 156,
+      "szDecimals": 4,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "IOTA",
+      "displayName": "IOTA",
+      "type": "perp",
+      "index": 157,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "ALGO",
+      "displayName": "ALGO",
+      "type": "perp",
+      "index": 158,
+      "szDecimals": 4,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "HYPE",
+      "displayName": "HYPE",
+      "type": "perp",
+      "index": 159,
+      "szDecimals": 2,
+      "maxLeverage": 10
+    },
+    {
+      "symbol": "ME",
+      "displayName": "ME",
+      "type": "perp",
+      "index": 160,
+      "szDecimals": 1,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "MOVE",
+      "displayName": "MOVE",
+      "type": "perp",
+      "index": 161,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "VIRTUAL",
+      "displayName": "VIRTUAL",
+      "type": "perp",
+      "index": 162,
+      "szDecimals": 1,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "PENGU",
+      "displayName": "PENGU",
+      "type": "perp",
+      "index": 163,
+      "szDecimals": 4,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "USUAL",
+      "displayName": "USUAL",
+      "type": "perp",
+      "index": 164,
+      "szDecimals": 1,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "FARTCOIN",
+      "displayName": "FARTCOIN",
+      "type": "perp",
+      "index": 165,
+      "szDecimals": 1,
+      "maxLeverage": 10
+    },
+    {
+      "symbol": "AI16Z",
+      "displayName": "AI16Z",
+      "type": "perp",
+      "index": 166,
+      "szDecimals": 1,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "AIXBT",
+      "displayName": "AIXBT",
+      "type": "perp",
+      "index": 167,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "ZEREBRO",
+      "displayName": "ZEREBRO",
+      "type": "perp",
+      "index": 168,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "BIO",
+      "displayName": "BIO",
+      "type": "perp",
+      "index": 169,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "GRIFFAIN",
+      "displayName": "GRIFFAIN",
+      "type": "perp",
+      "index": 170,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "SPX",
+      "displayName": "SPX",
+      "type": "perp",
+      "index": 171,
+      "szDecimals": 1,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "S",
+      "displayName": "S",
+      "type": "perp",
+      "index": 172,
+      "szDecimals": 4,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "MORPHO",
+      "displayName": "MORPHO",
+      "type": "perp",
+      "index": 173,
+      "szDecimals": 1,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "TRUMP",
+      "displayName": "TRUMP",
+      "type": "perp",
+      "index": 174,
+      "szDecimals": 1,
+      "maxLeverage": 10
+    },
+    {
+      "symbol": "MELANIA",
+      "displayName": "MELANIA",
+      "type": "perp",
+      "index": 175,
+      "szDecimals": 1,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "ANIME",
+      "displayName": "ANIME",
+      "type": "perp",
+      "index": 176,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "VINE",
+      "displayName": "VINE",
+      "type": "perp",
+      "index": 177,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "VVV",
+      "displayName": "VVV",
+      "type": "perp",
+      "index": 178,
+      "szDecimals": 2,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "JELLY",
+      "displayName": "JELLY",
+      "type": "perp",
+      "index": 179,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "BERA",
+      "displayName": "BERA",
+      "type": "perp",
+      "index": 180,
+      "szDecimals": 1,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "TST",
+      "displayName": "TST",
+      "type": "perp",
+      "index": 181,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "LAYER",
+      "displayName": "LAYER",
+      "type": "perp",
+      "index": 182,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "IP",
+      "displayName": "IP",
+      "type": "perp",
+      "index": 183,
+      "szDecimals": 1,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "OM",
+      "displayName": "OM",
+      "type": "perp",
+      "index": 184,
+      "szDecimals": 1,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "KAITO",
+      "displayName": "KAITO",
+      "type": "perp",
+      "index": 185,
+      "szDecimals": 4,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "NIL",
+      "displayName": "NIL",
+      "type": "perp",
+      "index": 186,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "PAXG",
+      "displayName": "PAXG",
+      "type": "perp",
+      "index": 187,
+      "szDecimals": 3,
+      "maxLeverage": 10
+    },
+    {
+      "symbol": "PROMPT",
+      "displayName": "PROMPT",
+      "type": "perp",
+      "index": 188,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "BABY",
+      "displayName": "BABY",
+      "type": "perp",
+      "index": 189,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "WCT",
+      "displayName": "WCT",
+      "type": "perp",
+      "index": 190,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "HYPER",
+      "displayName": "HYPER",
+      "type": "perp",
+      "index": 191,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "ZORA",
+      "displayName": "ZORA",
+      "type": "perp",
+      "index": 192,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "INIT",
+      "displayName": "INIT",
+      "type": "perp",
+      "index": 193,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "DOOD",
+      "displayName": "DOOD",
+      "type": "perp",
+      "index": 194,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "LAUNCHCOIN",
+      "displayName": "LAUNCHCOIN",
+      "type": "perp",
+      "index": 195,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "NXPC",
+      "displayName": "NXPC",
+      "type": "perp",
+      "index": 196,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "SOPH",
+      "displayName": "SOPH",
+      "type": "perp",
+      "index": 197,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "RESOLV",
+      "displayName": "RESOLV",
+      "type": "perp",
+      "index": 198,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "SYRUP",
+      "displayName": "SYRUP",
+      "type": "perp",
+      "index": 199,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "PUMP",
+      "displayName": "PUMP",
+      "type": "perp",
+      "index": 200,
+      "szDecimals": 4,
+      "maxLeverage": 10
+    },
+    {
+      "symbol": "PROVE",
+      "displayName": "PROVE",
+      "type": "perp",
+      "index": 201,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "YZY",
+      "displayName": "YZY",
+      "type": "perp",
+      "index": 202,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "XPL",
+      "displayName": "XPL",
+      "type": "perp",
+      "index": 203,
+      "szDecimals": 4,
+      "maxLeverage": 10
+    },
+    {
+      "symbol": "WLFI",
+      "displayName": "WLFI",
+      "type": "perp",
+      "index": 204,
+      "szDecimals": 4,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "LINEA",
+      "displayName": "LINEA",
+      "type": "perp",
+      "index": 205,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "SKY",
+      "displayName": "SKY",
+      "type": "perp",
+      "index": 206,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "ASTER",
+      "displayName": "ASTER",
+      "type": "perp",
+      "index": 207,
+      "szDecimals": 4,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "AVNT",
+      "displayName": "AVNT",
+      "type": "perp",
+      "index": 208,
+      "szDecimals": 4,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "STBL",
+      "displayName": "STBL",
+      "type": "perp",
+      "index": 209,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "0G",
+      "displayName": "0G",
+      "type": "perp",
+      "index": 210,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "HEMI",
+      "displayName": "HEMI",
+      "type": "perp",
+      "index": 211,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "APEX",
+      "displayName": "APEX",
+      "type": "perp",
+      "index": 212,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "2Z",
+      "displayName": "2Z",
+      "type": "perp",
+      "index": 213,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "ZEC",
+      "displayName": "ZEC",
+      "type": "perp",
+      "index": 214,
+      "szDecimals": 2,
+      "maxLeverage": 10
+    },
+    {
+      "symbol": "MON",
+      "displayName": "MON",
+      "type": "perp",
+      "index": 215,
+      "szDecimals": 4,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "MET",
+      "displayName": "MET",
+      "type": "perp",
+      "index": 216,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "MEGA",
+      "displayName": "MEGA",
+      "type": "perp",
+      "index": 217,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "CC",
+      "displayName": "CC",
+      "type": "perp",
+      "index": 218,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "ICP",
+      "displayName": "ICP",
+      "type": "perp",
+      "index": 219,
+      "szDecimals": 1,
+      "maxLeverage": 5
+    },
+    {
+      "symbol": "AERO",
+      "displayName": "AERO",
+      "type": "perp",
+      "index": 220,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "STABLE",
+      "displayName": "STABLE",
+      "type": "perp",
+      "index": 221,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "FOGO",
+      "displayName": "FOGO",
+      "type": "perp",
+      "index": 222,
+      "szDecimals": 4,
+      "maxLeverage": 3
+    },
+    {
+      "symbol": "PURR/USDC",
+      "displayName": "PURR/USDC",
+      "type": "spot",
+      "index": "PURR/USDC",
+      "szDecimals": 0
+    },
+    {
+      "symbol": "@1",
+      "displayName": "HFUN/USDC",
+      "type": "spot",
+      "index": "@1",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@2",
+      "displayName": "LICK/USDC",
+      "type": "spot",
+      "index": "@2",
+      "szDecimals": 0
+    },
+    {
+      "symbol": "@3",
+      "displayName": "MANLET/USDC",
+      "type": "spot",
+      "index": "@3",
+      "szDecimals": 0
+    },
+    {
+      "symbol": "@4",
+      "displayName": "JEFF/USDC",
+      "type": "spot",
+      "index": "@4",
+      "szDecimals": 0
+    },
+    {
+      "symbol": "@5",
+      "displayName": "SIX/USDC",
+      "type": "spot",
+      "index": "@5",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@6",
+      "displayName": "WAGMI/USDC",
+      "type": "spot",
+      "index": "@6",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@7",
+      "displayName": "CAPPY/USDC",
+      "type": "spot",
+      "index": "@7",
+      "szDecimals": 0
+    },
+    {
+      "symbol": "@8",
+      "displayName": "POINTS/USDC",
+      "type": "spot",
+      "index": "@8",
+      "szDecimals": 0
+    },
+    {
+      "symbol": "@9",
+      "displayName": "TRUMP/USDC",
+      "type": "spot",
+      "index": "@9",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@10",
+      "displayName": "GMEOW/USDC",
+      "type": "spot",
+      "index": "@10",
+      "szDecimals": 0
+    },
+    {
+      "symbol": "@11",
+      "displayName": "PEPE/USDC",
+      "type": "spot",
+      "index": "@11",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@12",
+      "displayName": "XULIAN/USDC",
+      "type": "spot",
+      "index": "@12",
+      "szDecimals": 0
+    },
+    {
+      "symbol": "@13",
+      "displayName": "RUG/USDC",
+      "type": "spot",
+      "index": "@13",
+      "szDecimals": 0
+    },
+    {
+      "symbol": "@14",
+      "displayName": "ILIENS/USDC",
+      "type": "spot",
+      "index": "@14",
+      "szDecimals": 0
+    },
+    {
+      "symbol": "@15",
+      "displayName": "FUCKY/USDC",
+      "type": "spot",
+      "index": "@15",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@16",
+      "displayName": "CZ/USDC",
+      "type": "spot",
+      "index": "@16",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@17",
+      "displayName": "BAGS/USDC",
+      "type": "spot",
+      "index": "@17",
+      "szDecimals": 0
+    },
+    {
+      "symbol": "@18",
+      "displayName": "ANSEM/USDC",
+      "type": "spot",
+      "index": "@18",
+      "szDecimals": 0
+    },
+    {
+      "symbol": "@19",
+      "displayName": "TATE/USDC",
+      "type": "spot",
+      "index": "@19",
+      "szDecimals": 0
+    },
+    {
+      "symbol": "@20",
+      "displayName": "PUMP/USDC",
+      "type": "spot",
+      "index": "@20",
+      "szDecimals": 0
+    },
+    {
+      "symbol": "@21",
+      "displayName": "KOBE/USDC",
+      "type": "spot",
+      "index": "@21",
+      "szDecimals": 0
+    },
+    {
+      "symbol": "@22",
+      "displayName": "HAPPY/USDC",
+      "type": "spot",
+      "index": "@22",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@23",
+      "displayName": "SCHIZO/USDC",
+      "type": "spot",
+      "index": "@23",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@24",
+      "displayName": "SELL/USDC",
+      "type": "spot",
+      "index": "@24",
+      "szDecimals": 0
+    },
+    {
+      "symbol": "@25",
+      "displayName": "BIGBEN/USDC",
+      "type": "spot",
+      "index": "@25",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@26",
+      "displayName": "CATNIP/USDC",
+      "type": "spot",
+      "index": "@26",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@27",
+      "displayName": "HBOOST/USDC",
+      "type": "spot",
+      "index": "@27",
+      "szDecimals": 0
+    },
+    {
+      "symbol": "@28",
+      "displayName": "SUCKY/USDC",
+      "type": "spot",
+      "index": "@28",
+      "szDecimals": 0
+    },
+    {
+      "symbol": "@29",
+      "displayName": "GUP/USDC",
+      "type": "spot",
+      "index": "@29",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@30",
+      "displayName": "FARMED/USDC",
+      "type": "spot",
+      "index": "@30",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@31",
+      "displayName": "GPT/USDC",
+      "type": "spot",
+      "index": "@31",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@32",
+      "displayName": "PURRPS/USDC",
+      "type": "spot",
+      "index": "@32",
+      "szDecimals": 0
+    },
+    {
+      "symbol": "@33",
+      "displayName": "BID/USDC",
+      "type": "spot",
+      "index": "@33",
+      "szDecimals": 0
+    },
+    {
+      "symbol": "@34",
+      "displayName": "HODL/USDC",
+      "type": "spot",
+      "index": "@34",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@35",
+      "displayName": "VEGAS/USDC",
+      "type": "spot",
+      "index": "@35",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@36",
+      "displayName": "ASI/USDC",
+      "type": "spot",
+      "index": "@36",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@37",
+      "displayName": "VAPOR/USDC",
+      "type": "spot",
+      "index": "@37",
+      "szDecimals": 0
+    },
+    {
+      "symbol": "@38",
+      "displayName": "PANDA/USDC",
+      "type": "spot",
+      "index": "@38",
+      "szDecimals": 0
+    },
+    {
+      "symbol": "@39",
+      "displayName": "PILL/USDC",
+      "type": "spot",
+      "index": "@39",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@40",
+      "displayName": "ADHD/USDC",
+      "type": "spot",
+      "index": "@40",
+      "szDecimals": 0
+    },
+    {
+      "symbol": "@41",
+      "displayName": "FUN/USDC",
+      "type": "spot",
+      "index": "@41",
+      "szDecimals": 1
+    },
+    {
+      "symbol": "@42",
+      "displayName": "LADY/USDC",
+      "type": "spot",
+      "index": "@42",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@43",
+      "displayName": "MOG/USDC",
+      "type": "spot",
+      "index": "@43",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@44",
+      "displayName": "HPEPE/USDC",
+      "type": "spot",
+      "index": "@44",
+      "szDecimals": 0
+    },
+    {
+      "symbol": "@45",
+      "displayName": "JEET/USDC",
+      "type": "spot",
+      "index": "@45",
+      "szDecimals": 0
+    },
+    {
+      "symbol": "@46",
+      "displayName": "DROP/USDC",
+      "type": "spot",
+      "index": "@46",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@47",
+      "displayName": "MBAPPE/USDC",
+      "type": "spot",
+      "index": "@47",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@48",
+      "displayName": "TEST/USDC",
+      "type": "spot",
+      "index": "@48",
+      "szDecimals": 0
+    },
+    {
+      "symbol": "@49",
+      "displayName": "RAGE/USDC",
+      "type": "spot",
+      "index": "@49",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@50",
+      "displayName": "FRAC/USDC",
+      "type": "spot",
+      "index": "@50",
+      "szDecimals": 1
+    },
+    {
+      "symbol": "@51",
+      "displayName": "ATEHUN/USDC",
+      "type": "spot",
+      "index": "@51",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@52",
+      "displayName": "COZY/USDC",
+      "type": "spot",
+      "index": "@52",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@53",
+      "displayName": "ARI/USDC",
+      "type": "spot",
+      "index": "@53",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@54",
+      "displayName": "WASH/USDC",
+      "type": "spot",
+      "index": "@54",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@55",
+      "displayName": "ANT/USDC",
+      "type": "spot",
+      "index": "@55",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@56",
+      "displayName": "NFT/USDC",
+      "type": "spot",
+      "index": "@56",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@57",
+      "displayName": "RICH/USDC",
+      "type": "spot",
+      "index": "@57",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@58",
+      "displayName": "LORA/USDC",
+      "type": "spot",
+      "index": "@58",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@59",
+      "displayName": "CATBAL/USDC",
+      "type": "spot",
+      "index": "@59",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@60",
+      "displayName": "TJIF/USDC",
+      "type": "spot",
+      "index": "@60",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@61",
+      "displayName": "GUESS/USDC",
+      "type": "spot",
+      "index": "@61",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@62",
+      "displayName": "MAXI/USDC",
+      "type": "spot",
+      "index": "@62",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@63",
+      "displayName": "NMTD/USDC",
+      "type": "spot",
+      "index": "@63",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@64",
+      "displayName": "HPUMP/USDC",
+      "type": "spot",
+      "index": "@64",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@65",
+      "displayName": "PIGEON/USDC",
+      "type": "spot",
+      "index": "@65",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@66",
+      "displayName": "RISE/USDC",
+      "type": "spot",
+      "index": "@66",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@67",
+      "displayName": "CINDY/USDC",
+      "type": "spot",
+      "index": "@67",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@68",
+      "displayName": "CHINA/USDC",
+      "type": "spot",
+      "index": "@68",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@69",
+      "displayName": "STACK/USDC",
+      "type": "spot",
+      "index": "@69",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@70",
+      "displayName": "FRIED/USDC",
+      "type": "spot",
+      "index": "@70",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@72",
+      "displayName": "NOCEX/USDC",
+      "type": "spot",
+      "index": "@72",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@73",
+      "displayName": "RANK/USDC",
+      "type": "spot",
+      "index": "@73",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@74",
+      "displayName": "OMNIX/USDC",
+      "type": "spot",
+      "index": "@74",
+      "szDecimals": 1
+    },
+    {
+      "symbol": "@75",
+      "displayName": "RIP/USDC",
+      "type": "spot",
+      "index": "@75",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@76",
+      "displayName": "G/USDC",
+      "type": "spot",
+      "index": "@76",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@77",
+      "displayName": "BOZO/USDC",
+      "type": "spot",
+      "index": "@77",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@78",
+      "displayName": "SPH/USDC",
+      "type": "spot",
+      "index": "@78",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@79",
+      "displayName": "SHOE/USDC",
+      "type": "spot",
+      "index": "@79",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@80",
+      "displayName": "MONAD/USDC",
+      "type": "spot",
+      "index": "@80",
+      "szDecimals": 1
+    },
+    {
+      "symbol": "@81",
+      "displayName": "HOPE/USDC",
+      "type": "spot",
+      "index": "@81",
+      "szDecimals": 0
+    },
+    {
+      "symbol": "@82",
+      "displayName": "BUSSY/USDC",
+      "type": "spot",
+      "index": "@82",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@83",
+      "displayName": "FATCAT/USDC",
+      "type": "spot",
+      "index": "@83",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@84",
+      "displayName": "SHREK/USDC",
+      "type": "spot",
+      "index": "@84",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@85",
+      "displayName": "PIP/USDC",
+      "type": "spot",
+      "index": "@85",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@86",
+      "displayName": "LQNA/USDC",
+      "type": "spot",
+      "index": "@86",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@87",
+      "displayName": "NASDAQ/USDC",
+      "type": "spot",
+      "index": "@87",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@88",
+      "displayName": "YEETI/USDC",
+      "type": "spot",
+      "index": "@88",
+      "szDecimals": 0
+    },
+    {
+      "symbol": "@89",
+      "displayName": "SYLVI/USDC",
+      "type": "spot",
+      "index": "@89",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@90",
+      "displayName": "FEIT/USDC",
+      "type": "spot",
+      "index": "@90",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@91",
+      "displayName": "FRUDO/USDC",
+      "type": "spot",
+      "index": "@91",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@92",
+      "displayName": "VIZN/USDC",
+      "type": "spot",
+      "index": "@92",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@93",
+      "displayName": "STRICT/USDC",
+      "type": "spot",
+      "index": "@93",
+      "szDecimals": 0
+    },
+    {
+      "symbol": "@94",
+      "displayName": "AUTIST/USDC",
+      "type": "spot",
+      "index": "@94",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@95",
+      "displayName": "MAGA/USDC",
+      "type": "spot",
+      "index": "@95",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@96",
+      "displayName": "HGOD/USDC",
+      "type": "spot",
+      "index": "@96",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@97",
+      "displayName": "LIQUID/USDC",
+      "type": "spot",
+      "index": "@97",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@99",
+      "displayName": "EARTH/USDC",
+      "type": "spot",
+      "index": "@99",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@100",
+      "displayName": "UP/USDC",
+      "type": "spot",
+      "index": "@100",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@101",
+      "displayName": "NIGGO/USDC",
+      "type": "spot",
+      "index": "@101",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@102",
+      "displayName": "HOP/USDC",
+      "type": "spot",
+      "index": "@102",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@103",
+      "displayName": "LUCKY/USDC",
+      "type": "spot",
+      "index": "@103",
+      "szDecimals": 0
+    },
+    {
+      "symbol": "@104",
+      "displayName": "COPE/USDC",
+      "type": "spot",
+      "index": "@104",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@105",
+      "displayName": "HPYH/USDC",
+      "type": "spot",
+      "index": "@105",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@106",
+      "displayName": "YAP/USDC",
+      "type": "spot",
+      "index": "@106",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@107",
+      "displayName": "HYPE/USDC",
+      "type": "spot",
+      "index": "@107",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@108",
+      "displayName": "CHEF/USDC",
+      "type": "spot",
+      "index": "@108",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@109",
+      "displayName": "WOW/USDC",
+      "type": "spot",
+      "index": "@109",
+      "szDecimals": 0
+    },
+    {
+      "symbol": "@110",
+      "displayName": "STEEL/USDC",
+      "type": "spot",
+      "index": "@110",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@111",
+      "displayName": "RETARD/USDC",
+      "type": "spot",
+      "index": "@111",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@112",
+      "displayName": "MEOW/USDC",
+      "type": "spot",
+      "index": "@112",
+      "szDecimals": 1
+    },
+    {
+      "symbol": "@113",
+      "displayName": "NEIRO/USDC",
+      "type": "spot",
+      "index": "@113",
+      "szDecimals": 1
+    },
+    {
+      "symbol": "@114",
+      "displayName": "PEAR/USDC",
+      "type": "spot",
+      "index": "@114",
+      "szDecimals": 1
+    },
+    {
+      "symbol": "@115",
+      "displayName": "HOLD/USDC",
+      "type": "spot",
+      "index": "@115",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@116",
+      "displayName": "MUNCH/USDC",
+      "type": "spot",
+      "index": "@116",
+      "szDecimals": 0
+    },
+    {
+      "symbol": "@117",
+      "displayName": "BERA/USDC",
+      "type": "spot",
+      "index": "@117",
+      "szDecimals": 1
+    },
+    {
+      "symbol": "@118",
+      "displayName": "GENESY/USDC",
+      "type": "spot",
+      "index": "@118",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@119",
+      "displayName": "BUBZ/USDC",
+      "type": "spot",
+      "index": "@119",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@120",
+      "displayName": "PICKL/USDC",
+      "type": "spot",
+      "index": "@120",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@121",
+      "displayName": "SHEEP/USDC",
+      "type": "spot",
+      "index": "@121",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@122",
+      "displayName": "LAUNCH/USDC",
+      "type": "spot",
+      "index": "@122",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@123",
+      "displayName": "FARM/USDC",
+      "type": "spot",
+      "index": "@123",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@124",
+      "displayName": "FLASK/USDC",
+      "type": "spot",
+      "index": "@124",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@125",
+      "displayName": "VAULT/USDC",
+      "type": "spot",
+      "index": "@125",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@126",
+      "displayName": "CAT/USDC",
+      "type": "spot",
+      "index": "@126",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@127",
+      "displayName": "HYENA/USDC",
+      "type": "spot",
+      "index": "@127",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@128",
+      "displayName": "DEPIN/USDC",
+      "type": "spot",
+      "index": "@128",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@129",
+      "displayName": "MON/USDC",
+      "type": "spot",
+      "index": "@129",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@130",
+      "displayName": "BEATS/USDC",
+      "type": "spot",
+      "index": "@130",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@131",
+      "displayName": "ORA/USDC",
+      "type": "spot",
+      "index": "@131",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@132",
+      "displayName": "LIQD/USDC",
+      "type": "spot",
+      "index": "@132",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@133",
+      "displayName": "H/USDC",
+      "type": "spot",
+      "index": "@133",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@134",
+      "displayName": "STAR/USDC",
+      "type": "spot",
+      "index": "@134",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@135",
+      "displayName": "SENT/USDC",
+      "type": "spot",
+      "index": "@135",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@136",
+      "displayName": "SOLV/USDC",
+      "type": "spot",
+      "index": "@136",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@137",
+      "displayName": "FLY/USDC",
+      "type": "spot",
+      "index": "@137",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@138",
+      "displayName": "TIME/USDC",
+      "type": "spot",
+      "index": "@138",
+      "szDecimals": 1
+    },
+    {
+      "symbol": "@139",
+      "displayName": "SOVRN/USDC",
+      "type": "spot",
+      "index": "@139",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@140",
+      "displayName": "HWTR/USDC",
+      "type": "spot",
+      "index": "@140",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@141",
+      "displayName": "GOD/USDC",
+      "type": "spot",
+      "index": "@141",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@142",
+      "displayName": "UBTC/USDC",
+      "type": "spot",
+      "index": "@142",
+      "szDecimals": 5
+    },
+    {
+      "symbol": "@143",
+      "displayName": "HEAD/USDC",
+      "type": "spot",
+      "index": "@143",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@145",
+      "displayName": "VORTX/USDC",
+      "type": "spot",
+      "index": "@145",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@146",
+      "displayName": "DEFIN/USDC",
+      "type": "spot",
+      "index": "@146",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@147",
+      "displayName": "JPEG/USDC",
+      "type": "spot",
+      "index": "@147",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@148",
+      "displayName": "WHYPI/USDC",
+      "type": "spot",
+      "index": "@148",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@150",
+      "displayName": "USDE/USDC",
+      "type": "spot",
+      "index": "@150",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@151",
+      "displayName": "UETH/USDC",
+      "type": "spot",
+      "index": "@151",
+      "szDecimals": 4
+    },
+    {
+      "symbol": "@152",
+      "displayName": "USDXL/USDC",
+      "type": "spot",
+      "index": "@152",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@153",
+      "displayName": "FEUSD/USDC",
+      "type": "spot",
+      "index": "@153",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@155",
+      "displayName": "QUANT/USDC",
+      "type": "spot",
+      "index": "@155",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@156",
+      "displayName": "USOL/USDC",
+      "type": "spot",
+      "index": "@156",
+      "szDecimals": 3
+    },
+    {
+      "symbol": "@157",
+      "displayName": "RAT/USDC",
+      "type": "spot",
+      "index": "@157",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@158",
+      "displayName": "TILT/USDC",
+      "type": "spot",
+      "index": "@158",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@159",
+      "displayName": "TREND/USDC",
+      "type": "spot",
+      "index": "@159",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@160",
+      "displayName": "BUDDY/USDC",
+      "type": "spot",
+      "index": "@160",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@161",
+      "displayName": "PRFI/USDC",
+      "type": "spot",
+      "index": "@161",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@162",
+      "displayName": "UFART/USDC",
+      "type": "spot",
+      "index": "@162",
+      "szDecimals": 1
+    },
+    {
+      "symbol": "@163",
+      "displayName": "FUND/USDC",
+      "type": "spot",
+      "index": "@163",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@164",
+      "displayName": "DIABLO/USDC",
+      "type": "spot",
+      "index": "@164",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@165",
+      "displayName": "PENIS/USDC",
+      "type": "spot",
+      "index": "@165",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@166",
+      "displayName": "USDT0/USDC",
+      "type": "spot",
+      "index": "@166",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@170",
+      "displayName": "PEG/USDC",
+      "type": "spot",
+      "index": "@170",
+      "szDecimals": 0
+    },
+    {
+      "symbol": "@171",
+      "displayName": "USH/USDC",
+      "type": "spot",
+      "index": "@171",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@172",
+      "displayName": "COOK/USDC",
+      "type": "spot",
+      "index": "@172",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@173",
+      "displayName": "RUB/USDC",
+      "type": "spot",
+      "index": "@173",
+      "szDecimals": 5
+    },
+    {
+      "symbol": "@174",
+      "displayName": "ANON/USDC",
+      "type": "spot",
+      "index": "@174",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@175",
+      "displayName": "FRCT/USDC",
+      "type": "spot",
+      "index": "@175",
+      "szDecimals": 1
+    },
+    {
+      "symbol": "@176",
+      "displayName": "PERP/USDC",
+      "type": "spot",
+      "index": "@176",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@177",
+      "displayName": "PURRO/USDC",
+      "type": "spot",
+      "index": "@177",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@178",
+      "displayName": "USR/USDC",
+      "type": "spot",
+      "index": "@178",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@179",
+      "displayName": "OTTI/USDC",
+      "type": "spot",
+      "index": "@179",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@180",
+      "displayName": "USDHL/USDC",
+      "type": "spot",
+      "index": "@180",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@182",
+      "displayName": "XAUT0/USDC",
+      "type": "spot",
+      "index": "@182",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@183",
+      "displayName": "HORSY/USDC",
+      "type": "spot",
+      "index": "@183",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@184",
+      "displayName": "HPENGU/USDC",
+      "type": "spot",
+      "index": "@184",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@185",
+      "displayName": "ISLAND/USDC",
+      "type": "spot",
+      "index": "@185",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@187",
+      "displayName": "LICKO/USDC",
+      "type": "spot",
+      "index": "@187",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@188",
+      "displayName": "UPUMP/USDC",
+      "type": "spot",
+      "index": "@188",
+      "szDecimals": 0
+    },
+    {
+      "symbol": "@189",
+      "displayName": "USPYX/USDC",
+      "type": "spot",
+      "index": "@189",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@190",
+      "displayName": "STLOOP/USDC",
+      "type": "spot",
+      "index": "@190",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@191",
+      "displayName": "TRADE/USDC",
+      "type": "spot",
+      "index": "@191",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@192",
+      "displayName": "ANZ/USDC",
+      "type": "spot",
+      "index": "@192",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@193",
+      "displayName": "UUUSPX/USDC",
+      "type": "spot",
+      "index": "@193",
+      "szDecimals": 1
+    },
+    {
+      "symbol": "@194",
+      "displayName": "UBONK/USDC",
+      "type": "spot",
+      "index": "@194",
+      "szDecimals": 0
+    },
+    {
+      "symbol": "@195",
+      "displayName": "LATINA/USDC",
+      "type": "spot",
+      "index": "@195",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@196",
+      "displayName": "APU/USDC",
+      "type": "spot",
+      "index": "@196",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@198",
+      "displayName": "WOULD/USDC",
+      "type": "spot",
+      "index": "@198",
+      "szDecimals": 1
+    },
+    {
+      "symbol": "@199",
+      "displayName": "EX/USDC",
+      "type": "spot",
+      "index": "@199",
+      "szDecimals": 1
+    },
+    {
+      "symbol": "@200",
+      "displayName": "UMOG/USDC",
+      "type": "spot",
+      "index": "@200",
+      "szDecimals": 1
+    },
+    {
+      "symbol": "@201",
+      "displayName": "HREKT/USDC",
+      "type": "spot",
+      "index": "@201",
+      "szDecimals": 0
+    },
+    {
+      "symbol": "@202",
+      "displayName": "KITTY/USDC",
+      "type": "spot",
+      "index": "@202",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@203",
+      "displayName": "DBLN/USDC",
+      "type": "spot",
+      "index": "@203",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@204",
+      "displayName": "VSN/USDC",
+      "type": "spot",
+      "index": "@204",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@205",
+      "displayName": "THBILL/USDC",
+      "type": "spot",
+      "index": "@205",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@206",
+      "displayName": "UENA/USDC",
+      "type": "spot",
+      "index": "@206",
+      "szDecimals": 1
+    },
+    {
+      "symbol": "@207",
+      "displayName": "HYPE/USDT0",
+      "type": "spot",
+      "index": "@207",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@208",
+      "displayName": "LTHREE/USDC",
+      "type": "spot",
+      "index": "@208",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@209",
+      "displayName": "XAUT0/USDT0",
+      "type": "spot",
+      "index": "@209",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@210",
+      "displayName": "UXPL/USDC",
+      "type": "spot",
+      "index": "@210",
+      "szDecimals": 1
+    },
+    {
+      "symbol": "@211",
+      "displayName": "BAYC/USDC",
+      "type": "spot",
+      "index": "@211",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@212",
+      "displayName": "LINK0/USDT0",
+      "type": "spot",
+      "index": "@212",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@213",
+      "displayName": "LINK0/USDC",
+      "type": "spot",
+      "index": "@213",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@214",
+      "displayName": "WMNT/USDC",
+      "type": "spot",
+      "index": "@214",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@215",
+      "displayName": "SLAY/USDC",
+      "type": "spot",
+      "index": "@215",
+      "szDecimals": 1
+    },
+    {
+      "symbol": "@216",
+      "displayName": "REI/USDC",
+      "type": "spot",
+      "index": "@216",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@217",
+      "displayName": "RZR/USDC",
+      "type": "spot",
+      "index": "@217",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@218",
+      "displayName": "REX/USDC",
+      "type": "spot",
+      "index": "@218",
+      "szDecimals": 1
+    },
+    {
+      "symbol": "@219",
+      "displayName": "BRIDGE/USDC",
+      "type": "spot",
+      "index": "@219",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@223",
+      "displayName": "PUP/USDC",
+      "type": "spot",
+      "index": "@223",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@224",
+      "displayName": "UWLD/USDC",
+      "type": "spot",
+      "index": "@224",
+      "szDecimals": 1
+    },
+    {
+      "symbol": "@225",
+      "displayName": "FLR/USDC",
+      "type": "spot",
+      "index": "@225",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@226",
+      "displayName": "AVAX0/USDC",
+      "type": "spot",
+      "index": "@226",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@227",
+      "displayName": "AAVE0/USDC",
+      "type": "spot",
+      "index": "@227",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@228",
+      "displayName": "UDZ/USDC",
+      "type": "spot",
+      "index": "@228",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@230",
+      "displayName": "USDH/USDC",
+      "type": "spot",
+      "index": "@230",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@231",
+      "displayName": "UPHL/USDC",
+      "type": "spot",
+      "index": "@231",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@232",
+      "displayName": "HYPE/USDH",
+      "type": "spot",
+      "index": "@232",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@233",
+      "displayName": "UXPL/USDH",
+      "type": "spot",
+      "index": "@233",
+      "szDecimals": 1
+    },
+    {
+      "symbol": "@234",
+      "displayName": "UBTC/USDH",
+      "type": "spot",
+      "index": "@234",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@235",
+      "displayName": "UETH/USDH",
+      "type": "spot",
+      "index": "@235",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@236",
+      "displayName": "KEI/USDC",
+      "type": "spot",
+      "index": "@236",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@237",
+      "displayName": "WAR/USDC",
+      "type": "spot",
+      "index": "@237",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@238",
+      "displayName": "XION/USDC",
+      "type": "spot",
+      "index": "@238",
+      "szDecimals": 1
+    },
+    {
+      "symbol": "@240",
+      "displayName": "KITTEN/USDC",
+      "type": "spot",
+      "index": "@240",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@241",
+      "displayName": "HWAVE/USDC",
+      "type": "spot",
+      "index": "@241",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@242",
+      "displayName": "SWAP/USDC",
+      "type": "spot",
+      "index": "@242",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@243",
+      "displayName": "UMON/USDC",
+      "type": "spot",
+      "index": "@243",
+      "szDecimals": 1
+    },
+    {
+      "symbol": "@244",
+      "displayName": "USDXL/USDT0",
+      "type": "spot",
+      "index": "@244",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@245",
+      "displayName": "NBT/USDC",
+      "type": "spot",
+      "index": "@245",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@246",
+      "displayName": "IZEC/USDC",
+      "type": "spot",
+      "index": "@246",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@247",
+      "displayName": "FI/USDC",
+      "type": "spot",
+      "index": "@247",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@248",
+      "displayName": "BZEC/USDC",
+      "type": "spot",
+      "index": "@248",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@249",
+      "displayName": "RISK/USDC",
+      "type": "spot",
+      "index": "@249",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@250",
+      "displayName": "KHYPE/USDH",
+      "type": "spot",
+      "index": "@250",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@251",
+      "displayName": "MMOVE/USDC",
+      "type": "spot",
+      "index": "@251",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@252",
+      "displayName": "AXL/USDH",
+      "type": "spot",
+      "index": "@252",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@253",
+      "displayName": "CREAM/USDC",
+      "type": "spot",
+      "index": "@253",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@254",
+      "displayName": "KNTQ/USDH",
+      "type": "spot",
+      "index": "@254",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@255",
+      "displayName": "HYPE/USDE",
+      "type": "spot",
+      "index": "@255",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@256",
+      "displayName": "SEDA/USDC",
+      "type": "spot",
+      "index": "@256",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@257",
+      "displayName": "UMEGA/USDC",
+      "type": "spot",
+      "index": "@257",
+      "szDecimals": 1
+    },
+    {
+      "symbol": "@258",
+      "displayName": "STABLE/USDC",
+      "type": "spot",
+      "index": "@258",
+      "szDecimals": 2
+    },
+    {
+      "symbol": "@259",
+      "displayName": "CASH/USDC",
+      "type": "spot",
+      "index": "@259",
+      "szDecimals": 2
+    }
+  ]
+}

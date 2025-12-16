@@ -137,6 +137,42 @@ client.on('prices', (prices) => {
 });
 ```
 
+### Full Asset Subscription (Terminal Trading)
+
+Subscribe to ALL data streams for a single asset with one call - perfect for building trading terminals:
+
+```typescript
+// Subscribe to everything for BTC: price, orderbook, trades, candles
+client.subscribeAsset('BTC');
+
+// Or specify candle interval
+client.subscribeAsset('ETH', '15m');
+
+// Subscribe to spot by index
+client.subscribeAsset('@123');
+
+// Listen to all the data
+client.on('prices', (prices) => {
+  const btc = prices.find(p => p.symbol === 'BTC');
+  console.log('Price:', btc.price);
+});
+
+client.on('orderbook', (ob) => {
+  console.log('Spread:', ob.spreadPercent);
+});
+
+client.on('trades', (data) => {
+  data.trades.forEach(t => console.log(t.side, t.price, t.size));
+});
+
+client.on('candle', (candle) => {
+  console.log('OHLCV:', candle);
+});
+
+// Cleanup
+client.unsubscribeAsset('BTC');
+```
+
 ### Order Book
 
 ```typescript
